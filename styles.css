@@ -2832,21 +2832,20 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   transform: translateX(-4px);
 }
 
-/* Secondary Button */
 .index-hero-section .index-hero-btn-secondary {
   display: inline-flex;
   align-items: center;
   gap: 10px;
   padding: 16px 40px;
-  background: transparent;
-  color: #ffffff;
+  background: linear-gradient(135deg, #FFC928 0%, #E6A800 100%);
+  color: #0D0D0D;
   font-family: 'Rubik', sans-serif;
   font-size: 1rem;
   font-weight: 600;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   border-radius: 4px;
-  border: 1.5px solid rgba(255,255,255,0.6);
+  border: 1.5px solid #FFC928;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -2854,10 +2853,11 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .index-hero-section .index-hero-btn-secondary:hover {
-  border-color: #FFC928;
-  color: #FFC928;
+  border-color: #FFD740;
+  color: #0D0D0D;
   transform: translateY(-4px);
   box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+  background: linear-gradient(135deg, #FFD740 0%, #FFC928 100%);
 }
 
 /* ── Stats Row ── */
