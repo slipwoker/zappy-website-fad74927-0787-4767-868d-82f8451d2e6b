@@ -1,0 +1,80 @@
+# המוביל הלאומי — Generative Engine Optimization Map
+
+> A national moving and transportation company called 'HaMovel HaLeumi' (The National Mover), operating from the center of Israel to all parts of the country. The brand identity is bold and recognizable, featuring a strong black and yellow color scheme that conveys reliability, energy, and visibility. The company positions itself as a nationwide service provider with broad geographic reach.
+
+---
+
+## Pages
+
+### בית
+https://example.com
+המוביל הלאומי מספק שירותי הובלה ולוגיסטיקה ברמה הגבוהה ביותר — מהמרכז לכל פינה בארץ. חברת הובלות מומלצת עם ניסיון עשיר, צוות מקצועי ומחירים הוגנים. קבלו הצעת מחיר עכשיו!
+
+### שירותים
+https://example.com/services
+הובלת דירה, הובלת משרד מהמרכז ושירותי לוגיסטיקה מקצה לקצה — הכל תחת קורת גג אחת. גלו את מגוון הפתרונות שלנו לכל סוג מעבר, בכל יעד ברחבי הארץ. בדקו מה אנחנו מציעים!
+
+### אודות
+https://example.com/about
+המוביל הלאומי נוסד מתוך חזון אחד: להיות חברה להובלות שניתן לסמוך עליה בכל מעבר. הכירו את הצוות, הערכים והמחויבות שלנו לשירות אמין, מהיר ומכובד — מהמרכז ועד לכל קצוות הארץ.
+
+### צור קשר
+https://example.com/contact
+רוצים לתאם הובלת דירה חדשה או הובלת משרד? צרו קשר עם המוביל הלאומי עוד היום וקבלו הצעת מחיר מותאמת אישית. אנחנו כאן לענות על כל שאלה ולדאוג שהמעבר שלכם יהיה חלק ומושלם.
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://example.com/contact
+- Endpoint: https://example.com/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text, required)
+  - `phone` (tel, required)
+  - `email` (email)
+  - `service` (text)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox, required)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About המוביל הלאומי
+A national moving and transportation company called 'HaMovel HaLeumi' (The National Mover), operating from the center of Israel to all parts of the country. The brand identity is bold and recognizable, featuring a strong black and yellow color scheme that conveys reliability, energy, and visibility. The company positions itself as a nationwide service provider with broad geographic reach.
+
+## Target Audience
+- בעלי בתים חדשים
+- מעברי משרדים
+- מעברי שיפוצים
+- משפחות
+
+## Industry
+הובלה ולוגיסטיקה
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
