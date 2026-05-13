@@ -50,4 +50,4 @@ Allow: /
 User-agent: MistralAI-User
 Allow: /
 
-Sitemap: https://hamovilhaleumi-1.zappy5.app/sitemap.xml
+Sitemap: https://hamovil-haleumi.co.il/sitemap.xml

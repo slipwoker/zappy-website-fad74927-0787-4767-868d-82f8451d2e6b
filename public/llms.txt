@@ -7,33 +7,33 @@
 ## Pages
 
 ### בית
-https://hamovilhaleumi-1.zappy5.app
+https://hamovil-haleumi.co.il
 המוביל הלאומי מספק שירותי הובלה ולוגיסטיקה ברמה הגבוהה ביותר — מהמרכז לכל פינה בארץ. חברת הובלות מומלצת עם ניסיון עשיר, צוות מקצועי ומחירים הוגנים. קבלו הצעת מחיר עכשיו!
 
 ### שירותים
-https://hamovilhaleumi-1.zappy5.app/services
+https://hamovil-haleumi.co.il/services
 הובלת דירה, הובלת משרד מהמרכז ושירותי לוגיסטיקה מקצה לקצה — הכל תחת קורת גג אחת. גלו את מגוון הפתרונות שלנו לכל סוג מעבר, בכל יעד ברחבי הארץ. בדקו מה אנחנו מציעים!
 
 ### אודות
-https://hamovilhaleumi-1.zappy5.app/about
+https://hamovil-haleumi.co.il/about
 המוביל הלאומי נוסד מתוך חזון אחד: להיות חברה להובלות שניתן לסמוך עליה בכל מעבר. הכירו את הצוות, הערכים והמחויבות שלנו לשירות אמין, מהיר ומכובד — מהמרכז ועד לכל קצוות הארץ.
 
 ### צור קשר
-https://hamovilhaleumi-1.zappy5.app/contact
+https://hamovil-haleumi.co.il/contact
 רוצים לתאם הובלת דירה חדשה או הובלת משרד? צרו קשר עם המוביל הלאומי עוד היום וקבלו הצעת מחיר מותאמת אישית. אנחנו כאן לענות על כל שאלה ולדאוג שהמעבר שלכם יהיה חלק ומושלם.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://hamovilhaleumi-1.zappy5.app/privacy
+https://hamovil-haleumi.co.il/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://hamovilhaleumi-1.zappy5.app/terms
+https://hamovil-haleumi.co.il/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://hamovilhaleumi-1.zappy5.app/accessibility
+https://hamovil-haleumi.co.il/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -43,8 +43,8 @@ Information about WCAG compliance and accessibility features.
 - (No contact details configured yet.)
 
 ### Contact form
-- URL: https://hamovilhaleumi-1.zappy5.app/contact
-- Endpoint: https://hamovilhaleumi-1.zappy5.app/api/email/contact-form
+- URL: https://hamovil-haleumi.co.il/contact
+- Endpoint: https://hamovil-haleumi.co.il/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -75,6 +75,6 @@ A national moving and transportation company called 'HaMovel HaLeumi' (The Natio
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://hamovilhaleumi-1.zappy5.app/sitemap.xml
-- Robots: https://hamovilhaleumi-1.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://hamovilhaleumi-1.zappy5.app/llms-full.txt
+- Sitemap (XML): https://hamovil-haleumi.co.il/sitemap.xml
+- Robots: https://hamovil-haleumi.co.il/robots.txt
+- Flattened page text (for LLMs): https://hamovil-haleumi.co.il/llms-full.txt
