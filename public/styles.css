@@ -7534,8 +7534,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   padding: 8px !important;
   text-decoration: none !important;
   z-index: 10000 !important;
-  border-radius: 4px !important;
-}
+  border-radius: 4px !important; transform: none; }
 
 /* Enhanced focus indicators */
 *:focus {
