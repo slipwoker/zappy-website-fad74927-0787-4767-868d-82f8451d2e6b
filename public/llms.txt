@@ -40,7 +40,10 @@ Information about WCAG compliance and accessibility features.
 
 ## How to Contact Us
 
-- (No contact details configured yet.)
+- Email: Elyao12789@gmail.com
+- Phone: 0525255298
+- Phone (tel): tel:0525255298
+- Address: תל אביב
 
 ### Contact form
 - URL: https://hamovil-haleumi.co.il/contact

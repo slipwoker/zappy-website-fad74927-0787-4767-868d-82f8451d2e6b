@@ -8218,6 +8218,25 @@ nav .sub-menu.zappy-empty-submenu,
   main > section:first-child {
     padding-top: 100px !important;
   }
+
+  /* Split hero (.hero-sbs-wrap) already applies ~100px top padding for the navbar.
+     Without this override, the global rule above stacks and mobile shows ~200px
+     of dead air above the hero image. */
+  main > section:first-child:has(.hero-sbs-wrap),
+  section[class*="-hero-section"]:first-of-type:has(.hero-sbs-wrap) {
+    padding-top: 0 !important;
+  }
+
+  /* Zoom-crop hero portraits: anchor with inset:0 so RTL/LTR matches and cover
+     cropping stays centered (physical left:0 absolute imgs can mis-read in RTL). */
+  .hero-sbs-image-frame [data-zappy-zoom-wrapper="true"] img {
+    inset: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    max-height: none !important;
+    object-fit: cover !important;
+    object-position: center center !important;
+  }
   
   /* ========== HERO CONTAINER FULL-WIDTH (FULLSCREEN HEROES ONLY) ========== */
   /* Only strip container padding/width for heroes with actual background images.
@@ -8654,6 +8673,42 @@ html[dir="ltr"] .service-detail.service-reverse .service-detail-content { order:
     height: 0 !important;
     min-width: 0 !important;
     overflow: hidden !important;
+  }
+}
+
+
+/* ZAPPY_PUBLISHED_MOBILE_MEDIA_FIT_FIX */
+@media (max-width: 768px) {
+  /* Published sites can carry stale editor-generated transform:scale(...) rules.
+     Fullscreen hero backgrounds must keep filling their absolute wrapper; mobile
+     crop runtime can still override this with inline styles when needed. */
+  html body main section[class*="hero"] [data-hero-bg],
+  html body main section[class*="hero"] [data-hero-background="true"],
+  html body main section[data-hero-type*="fullscreen"] img[data-hero-bg],
+  html body main section[data-hero-type*="fullscreen"] img[data-hero-background="true"] {
+    transform: none !important;
+    transform-origin: center center !important;
+    max-width: none !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+  }
+
+  /* Filter chip rows should wrap on narrow RTL screens instead of hiding most
+     options off-canvas behind a horizontal scroller. */
+  html body main #showcaseAdvancedFilter .adv-filter-group > .adv-filter-scroll-row,
+  html body main .index-showcase-section #showcaseAdvancedFilter .adv-filter-group > .adv-filter-scroll-row,
+  html body main .index-showcase-section .adv-filter-group > .adv-filter-scroll-row {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    overflow-x: visible !important;
+    overflow-y: visible !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    padding-inline: 0 !important;
+    margin-inline: 0 !important;
+    height: auto !important;
+    cursor: default !important;
   }
 }
 
