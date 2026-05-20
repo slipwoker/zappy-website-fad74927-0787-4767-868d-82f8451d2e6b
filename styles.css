@@ -2968,16 +2968,19 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   }
 
   .index-hero-section .index-hero-stats {
-    gap: 4px;
-  }
+  gap: 0px;
+  flex-wrap: nowrap;
+}
 
   .index-hero-section .index-hero-stat {
-    padding: 0 12px;
-  }
+  padding: 0px 8px;
+  flex-shrink: 1;
+  min-width: 0;
+}
 
   .index-hero-section .index-hero-stat-num {
-    font-size: 1.5rem;
-  }
+  font-size: 1.15rem;
+}
 
   .index-hero-section .index-hero-speedlines {
     width: 240px;
@@ -7742,33 +7745,31 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 .index-hero-section .index-hero-stats {
   flex-wrap: nowrap !important;
   gap: 0px !important;
-  justify-content: flex-end;
-  overflow: hidden;
 }
 
 .index-hero-section .index-hero-stat {
-  padding: 0px 10px !important;
-  flex-shrink: 1;
-  min-width: 0;
-  align-items: flex-end !important;
+  padding: 0px 8px !important;
+  flex-shrink: 1 !important;
+  min-width: 0 !important;
 }
 
 .index-hero-section .index-hero-stat:first-child {
-  padding-inline: 0px 10px !important;
+  padding-inline-start: 0px !important;
+  padding-inline-end: 8px !important;
 }
 
 .index-hero-section .index-hero-stat-num {
-  font-size: 1.2rem !important;
+  font-size: 1.15rem !important;
 }
 
 .index-hero-section .index-hero-stat-label {
-  font-size: 0.6rem !important;
-  white-space: nowrap;
+  font-size: 0.58rem !important;
+  white-space: nowrap !important;
 }
 
 .index-hero-section .index-hero-stat-sep {
-  flex-shrink: 0;
-  height: 32px !important;
+  height: 30px !important;
+  flex-shrink: 0 !important;
 }
 }
 /* mobile-submenu-overflow-fix */
