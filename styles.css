@@ -7737,6 +7737,40 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 ._access-icon {
   display: flex !important;
 }
+
+@media (max-width: 768px) {
+.index-hero-section .index-hero-stats {
+  flex-wrap: nowrap !important;
+  gap: 0px !important;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+.index-hero-section .index-hero-stat {
+  padding: 0px 10px !important;
+  flex-shrink: 1;
+  min-width: 0;
+  align-items: flex-end !important;
+}
+
+.index-hero-section .index-hero-stat:first-child {
+  padding-inline: 0px 10px !important;
+}
+
+.index-hero-section .index-hero-stat-num {
+  font-size: 1.2rem !important;
+}
+
+.index-hero-section .index-hero-stat-label {
+  font-size: 0.6rem !important;
+  white-space: nowrap;
+}
+
+.index-hero-section .index-hero-stat-sep {
+  flex-shrink: 0;
+  height: 32px !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
