@@ -2970,16 +2970,22 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   .index-hero-section .index-hero-stats {
   gap: 0px;
   flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
 }
 
   .index-hero-section .index-hero-stat {
-  padding: 0px 8px;
+  padding: 0px 6px;
   flex-shrink: 1;
-  min-width: 0;
+  min-width: 0px;
+  flex-direction: column;
+  align-items: center;
 }
 
   .index-hero-section .index-hero-stat-num {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
   .index-hero-section .index-hero-speedlines {
@@ -7763,13 +7769,14 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 }
 
 .index-hero-section .index-hero-stat-label {
-  font-size: 0.58rem !important;
+  font-size: 0.6rem;
   white-space: nowrap !important;
 }
 
 .index-hero-section .index-hero-stat-sep {
   height: 30px !important;
-  flex-shrink: 0 !important;
+  flex-shrink: 0;
+  display: block;
 }
 }
 /* mobile-submenu-overflow-fix */
