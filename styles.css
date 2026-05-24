@@ -7779,6 +7779,35 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   display: block;
 }
 }
+
+.index-hero-section .index-hero-stats {
+  flex-direction: row !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+  justify-content: flex-end !important;
+  gap: 0px !important;
+}
+
+.index-hero-section .index-hero-stat {
+  flex-direction: column !important;
+  align-items: center !important;
+  padding: 0px 6px !important;
+  flex-shrink: 1 !important;
+  min-width: 0px !important;
+}
+
+.index-hero-section .index-hero-stat-num {
+  font-size: 1rem !important;
+}
+
+.index-hero-section .index-hero-stat-label {
+  font-size: 0.6rem !important;
+}
+
+.index-hero-section .index-hero-stat-sep {
+  display: block !important;
+  flex-shrink: 0 !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
