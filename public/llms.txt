@@ -40,7 +40,7 @@ Information about WCAG compliance and accessibility features.
 
 ## How to Contact Us
 
-- Email: Elyao12789@gmail.com
+- Email: itamar.avis@wisy.co.il
 - Phone: 0526226637
 - Phone (tel): tel:0526226637
 - Address: תל אביב
