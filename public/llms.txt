@@ -55,10 +55,10 @@ Information about WCAG compliance and accessibility features.
 - Method: POST
 - Content-Type: application/json
 - Fields:
-  - `name` (text)
-  - `phone` (tel)
+  - `name` (text, required)
+  - `phone` (tel, required)
   - `service` (text)
-  - `privacy_consent` (checkbox)
+  - `privacy_consent` (checkbox, required)
 
 ---
 
