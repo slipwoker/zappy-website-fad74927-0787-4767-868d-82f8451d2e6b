@@ -1029,9 +1029,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               <input type="text" id="contact-service" name="service" class="contact-field-input" placeholder="הובלת דירה / הובלת משרד / לוגיסטיקה...">
             </div>
 
-            <input type="hidden" name="email" value="no-email@hamovil-haleumi.co.il">
-
-            <input type="hidden" name="email" value="no-email@hamovil-haleumi.co.il">
+            <input type="hidden" name="_subject" value="פנייה חדשה - המוביל הלאומי">
+            <input type="hidden" name="_next" value="/thank-you">
+            <input type="hidden" name="_captcha" value="false">
 
             <div class="privacy-consent">
               <label class="privacy-consent-label">
@@ -1049,36 +1049,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           (function() {
             var form = document.querySelector('.contact-form');
             if (!form) return;
-            // Prevent double-binding
             if (form.dataset.handlerBound) return;
             form.dataset.handlerBound = '1';
+            form.action = 'https://formsubmit.co/itamar.avis@wisy.co.il';
+            form.method = 'POST';
             form.addEventListener('submit', function(e) {
-              e.preventDefault();
               var name = form.querySelector('[name="name"]').value.trim();
               var phone = form.querySelector('[name="phone"]').value.trim();
               var consent = form.querySelector('[name="privacy_consent"]').checked;
               if (!name || !phone) {
+                e.preventDefault();
                 alert('אנא מלאו את שם מלא ומספר טלפון.');
                 return;
               }
               if (!consent) {
+                e.preventDefault();
                 alert('יש לאשר את תנאי השימוש ומדיניות הפרטיות.');
                 return;
               }
               var btn = form.querySelector('.contact-submit-btn');
-              if (btn) { btn.disabled = true; }
+              if (btn) btn.disabled = true;
               var spanEl = form.querySelector('.contact-submit-btn span');
               if (spanEl) spanEl.textContent = 'שולח...';
-              var service = form.querySelector('[name="service"]') ? form.querySelector('[name="service"]').value.trim() : '';
-              fetch('https://formsubmit.co/ajax/itamar.avis@wisy.co.il', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-                body: JSON.stringify({ name: name, phone: phone, service: service, _subject: 'פנייה חדשה - המוביל הלאומי', _captcha: 'false' })
-              }).then(function() {
-                window.location.href = '/thank-you';
-              }).catch(function() {
-                window.location.href = '/thank-you';
-              });
             });
           })();
           </script></div>
