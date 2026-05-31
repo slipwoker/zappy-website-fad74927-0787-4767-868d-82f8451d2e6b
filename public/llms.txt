@@ -22,6 +22,10 @@ https://hamovil-haleumi.co.il/about
 https://hamovil-haleumi.co.il/contact
 רוצים לתאם הובלת דירה חדשה או הובלת משרד? צרו קשר עם המוביל הלאומי עוד היום וקבלו הצעת מחיר מותאמת אישית. אנחנו כאן לענות על כל שאלה ולדאוג שהמעבר שלכם יהיה חלק ומושלם.
 
+### Thank You | המוביל הלאומי
+https://hamovil-haleumi.co.il/thank-you
+המוביל הלאומי - Thank You | המוביל הלאומי
+
 ## Legal & Policy
 
 ### Privacy Policy
@@ -51,10 +55,10 @@ Information about WCAG compliance and accessibility features.
 - Method: POST
 - Content-Type: application/json
 - Fields:
-  - `name` (text, required)
-  - `phone` (tel, required)
+  - `name` (text)
+  - `phone` (tel)
   - `service` (text)
-  - `privacy_consent` (checkbox, required)
+  - `privacy_consent` (checkbox)
 
 ---
 
